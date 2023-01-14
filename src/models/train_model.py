@@ -87,7 +87,7 @@ def train(train_data_filepath, lr):
         plt.show()
 
     #prof.export_chrome_trace("trace.json")
-    print(prof.key_averages(group_by_input_shape=True).table(sort_by="cpu_time_total", row_limit=30))
+#    print(prof.key_averages(group_by_input_shape=True).table(sort_by="cpu_time_total", row_limit=30))
 
 cli.add_command(train)
 
