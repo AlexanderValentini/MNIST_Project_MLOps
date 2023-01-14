@@ -1,0 +1,50 @@
+{
+    "os": "Windows-10-10.0.19044-SP0",
+    "python": "3.10.8",
+    "heartbeatAt": "2023-01-12T16:22:03.347112",
+    "startedAt": "2023-01-12T16:22:01.684598",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "d:\\shared\\DTU\\7. Semester\\Machine Learning Operations\\Own Exercises folder\\Cookie_Cutter_project_git_supported (newest)\\MNIST_Project_MLOps\\src\\models\\train_model.py",
+    "codePath": "src\\models\\train_model.py",
+    "git": {
+        "remote": "https://github.com/AlexanderValentini/MNIST_Project_MLOps.git",
+        "commit": "ca7d94c38f5ff13d736732d8441689c6534f638b"
+    },
+    "email": "skolekammerat@gmail.com",
+    "root": "D:/shared/DTU/7. Semester/Machine Learning Operations/Own Exercises folder/Cookie_Cutter_project_git_supported (newest)/MNIST_Project_MLOps",
+    "host": "MSI",
+    "username": "ejer",
+    "executable": "D:\\ProgramData\\Anaconda3\\envs\\MLOps_Env\\python.exe",
+    "cpu_count": 4,
+    "cpu_count_logical": 8,
+    "cpu_freq": {
+        "current": 2801.0,
+        "min": 0.0,
+        "max": 2801.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2801.0,
+            "min": 0.0,
+            "max": 2801.0
+        }
+    ],
+    "disk": {
+        "total": 912.9785118103027,
+        "used": 238.77787399291992
+    },
+    "gpu": "NVIDIA GeForce GTX 1050 Ti",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce GTX 1050 Ti",
+            "memory_total": 4294967296
+        }
+    ],
+    "memory": {
+        "total": 15.918231964111328
+    }
+}

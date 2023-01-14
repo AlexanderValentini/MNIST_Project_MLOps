@@ -1,0 +1,846 @@
+
+{
+  "schemaVersion": 1,
+  "traceEvents": [
+  {
+    "ph": "X", "cat": "cpu_op", "name": "aten::to", "pid": 9392, "tid": 11724,
+    "ts": 1673604094282681, "dur": 99,
+    "args": {
+      "Trace name": "PyTorch Profiler", "Trace iteration": 0,
+      "External id": 6399489,
+      "Profiler Event Index": 0, "Input Dims": [[16, 1, 28, 28], [], [], [], []], "Input type": ["double", "Scalar", "Scalar", "Scalar", ""], "Fwd thread id": 0, "Sequence number": 212483
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", "name": "aten::_to_copy", "pid": 9392, "tid": 11724,
+    "ts": 1673604094282690, "dur": 87,
+    "args": {
+      "Trace name": "PyTorch Profiler", "Trace iteration": 0,
+      "External id": 6399490,
+      "Profiler Event Index": 1, "Input Dims": [[16, 1, 28, 28], [], [], [], [], [], []], "Input type": ["double", "Scalar", "", "", "", "Scalar", ""], "Fwd thread id": 0, "Sequence number": 212483
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", "name": "aten::empty_strided", "pid": 9392, "tid": 11724,
+    "ts": 1673604094282711, "dur": 15,
+    "args": {
+      "Trace name": "PyTorch Profiler", "Trace iteration": 0,
+      "External id": 6399491,
+      "Profiler Event Index": 2, "Input Dims": [[], [], [], [], [], []], "Input type": ["", "", "Scalar", "Scalar", "", "Scalar"]
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", "name": "aten::copy_", "pid": 9392, "tid": 11724,
+    "ts": 1673604094282737, "dur": 33,
+    "args": {
+      "Trace name": "PyTorch Profiler", "Trace iteration": 0,
+      "External id": 6399492,
+      "Profiler Event Index": 3, "Input Dims": [[16, 1, 28, 28], [16, 1, 28, 28], []], "Input type": ["float", "double", "Scalar"]
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", "name": "aten::conv2d", "pid": 9392, "tid": 11724,
+    "ts": 1673604094282892, "dur": 1395,
+    "args": {
+      "Trace name": "PyTorch Profiler", "Trace iteration": 0,
+      "External id": 6399493,
+      "Profiler Event Index": 4, "Input Dims": [[16, 1, 28, 28], [16, 1, 3, 3], [16], [], [], [], []], "Input type": ["float", "float", "float", "", "", "", "Scalar"], "Fwd thread id": 0, "Sequence number": 212483
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", "name": "aten::convolution", "pid": 9392, "tid": 11724,
+    "ts": 1673604094282909, "dur": 1375,
+    "args": {
+      "Trace name": "PyTorch Profiler", "Trace iteration": 0,
+      "External id": 6399494,
+      "Profiler Event Index": 5, "Input Dims": [[16, 1, 28, 28], [16, 1, 3, 3], [16], [], [], [], [], [], []], "Input type": ["float", "float", "float", "", "", "", "Scalar", "", "Scalar"], "Fwd thread id": 0, "Sequence number": 212483
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", "name": "aten::_convolution", "pid": 9392, "tid": 11724,
+    "ts": 1673604094282954, "dur": 1320,
+    "args": {
+      "Trace name": "PyTorch Profiler", "Trace iteration": 0,
+      "External id": 6399495,
+      "Profiler Event Index": 6, "Input Dims": [[16, 1, 28, 28], [16, 1, 3, 3], [16], [], [], [], [], [], [], [], [], [], []], "Input type": ["float", "float", "float", "", "", "", "Scalar", "", "Scalar", "Scalar", "Scalar", "Scalar", "Scalar"]
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", "name": "aten::mkldnn_convolution", "pid": 9392, "tid": 11724,
+    "ts": 1673604094282989, "dur": 1281,
+    "args": {
+      "Trace name": "PyTorch Profiler", "Trace iteration": 0,
+      "External id": 6399496,
+      "Profiler Event Index": 7, "Input Dims": [[16, 1, 28, 28], [16, 1, 3, 3], [16], [], [], [], []], "Input type": ["float", "float", "float", "", "", "", "Scalar"]
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", "name": "aten::empty", "pid": 9392, "tid": 11724,
+    "ts": 1673604094283007, "dur": 11,
+    "args": {
+      "Trace name": "PyTorch Profiler", "Trace iteration": 0,
+      "External id": 6399497,
+      "Profiler Event Index": 8, "Input Dims": [[], [], [], [], [], []], "Input type": ["", "Scalar", "Scalar", "", "", ""]
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", "name": "aten::empty", "pid": 9392, "tid": 11724,
+    "ts": 1673604094284066, "dur": 37,
+    "args": {
+      "Trace name": "PyTorch Profiler", "Trace iteration": 0,
+      "External id": 6399498,
+      "Profiler Event Index": 9, "Input Dims": [[], [], [], [], [], []], "Input type": ["", "Scalar", "Scalar", "", "", ""]
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", "name": "aten::as_strided_", "pid": 9392, "tid": 11724,
+    "ts": 1673604094284252, "dur": 3,
+    "args": {
+      "Trace name": "PyTorch Profiler", "Trace iteration": 0,
+      "External id": 6399499,
+      "Profiler Event Index": 10, "Input Dims": [[16, 16, 28, 28], [], [], []], "Input type": ["float", "", "", ""]
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", "name": "aten::add_", "pid": 9392, "tid": 11724,
+    "ts": 1673604094284362, "dur": 14,
+    "args": {
+      "Trace name": "PyTorch Profiler", "Trace iteration": 0,
+      "External id": 6399500,
+      "Profiler Event Index": 11, "Input Dims": [[], [], []], "Input type": ["__int64", "__int64", "Scalar"], "Fwd thread id": 0, "Sequence number": 212484
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", "name": "aten::batch_norm", "pid": 9392, "tid": 11724,
+    "ts": 1673604094284416, "dur": 305,
+    "args": {
+      "Trace name": "PyTorch Profiler", "Trace iteration": 0,
+      "External id": 6399501,
+      "Profiler Event Index": 12, "Input Dims": [[16, 16, 28, 28], [16], [16], [16], [16], [], [], [], []], "Input type": ["float", "float", "float", "float", "float", "Scalar", "Scalar", "Scalar", "Scalar"], "Fwd thread id": 0, "Sequence number": 212484
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", "name": "aten::_batch_norm_impl_index", "pid": 9392, "tid": 11724,
+    "ts": 1673604094284420, "dur": 299,
+    "args": {
+      "Trace name": "PyTorch Profiler", "Trace iteration": 0,
+      "External id": 6399502,
+      "Profiler Event Index": 13, "Input Dims": [[16, 16, 28, 28], [16], [16], [16], [16], [], [], [], []], "Input type": ["float", "float", "float", "float", "float", "Scalar", "Scalar", "Scalar", "Scalar"], "Fwd thread id": 0, "Sequence number": 212484
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", "name": "aten::empty", "pid": 9392, "tid": 11724,
+    "ts": 1673604094284427, "dur": 3,
+    "args": {
+      "Trace name": "PyTorch Profiler", "Trace iteration": 0,
+      "External id": 6399503,
+      "Profiler Event Index": 14, "Input Dims": [[], [], [], [], [], []], "Input type": ["", "Scalar", "Scalar", "", "", ""]
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", "name": "aten::native_batch_norm", "pid": 9392, "tid": 11724,
+    "ts": 1673604094284435, "dur": 280,
+    "args": {
+      "Trace name": "PyTorch Profiler", "Trace iteration": 0,
+      "External id": 6399504,
+      "Profiler Event Index": 15, "Input Dims": [[16, 16, 28, 28], [16], [16], [16], [16], [], [], []], "Input type": ["float", "float", "float", "float", "float", "Scalar", "Scalar", "Scalar"], "Fwd thread id": 0, "Sequence number": 212484
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", "name": "aten::empty", "pid": 9392, "tid": 11724,
+    "ts": 1673604094284452, "dur": 1,
+    "args": {
+      "Trace name": "PyTorch Profiler", "Trace iteration": 0,
+      "External id": 6399505,
+      "Profiler Event Index": 16, "Input Dims": [[], [], [], [], [], []], "Input type": ["", "Scalar", "Scalar", "", "", ""]
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", "name": "aten::empty", "pid": 9392, "tid": 11724,
+    "ts": 1673604094284457, "dur": 1,
+    "args": {
+      "Trace name": "PyTorch Profiler", "Trace iteration": 0,
+      "External id": 6399506,
+      "Profiler Event Index": 17, "Input Dims": [[], [], [], [], [], []], "Input type": ["", "Scalar", "Scalar", "", "", ""]
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", "name": "aten::empty", "pid": 9392, "tid": 11724,
+    "ts": 1673604094284463, "dur": 1,
+    "args": {
+      "Trace name": "PyTorch Profiler", "Trace iteration": 0,
+      "External id": 6399507,
+      "Profiler Event Index": 18, "Input Dims": [[], [], [], [], [], []], "Input type": ["", "Scalar", "Scalar", "", "", ""]
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", "name": "aten::empty", "pid": 9392, "tid": 11724,
+    "ts": 1673604094284477, "dur": 2,
+    "args": {
+      "Trace name": "PyTorch Profiler", "Trace iteration": 0,
+      "External id": 6399508,
+      "Profiler Event Index": 19, "Input Dims": [[], [], [], [], [], []], "Input type": ["", "Scalar", "Scalar", "", "", ""]
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", "name": "aten::empty_like", "pid": 9392, "tid": 11724,
+    "ts": 1673604094284638, "dur": 15,
+    "args": {
+      "Trace name": "PyTorch Profiler", "Trace iteration": 0,
+      "External id": 6399509,
+      "Profiler Event Index": 20, "Input Dims": [[16, 16, 28, 28], [], [], [], [], []], "Input type": ["float", "", "", "", "", "Scalar"]
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", "name": "aten::empty", "pid": 9392, "tid": 11724,
+    "ts": 1673604094284641, "dur": 10,
+    "args": {
+      "Trace name": "PyTorch Profiler", "Trace iteration": 0,
+      "External id": 6399510,
+      "Profiler Event Index": 21, "Input Dims": [[], [], [], [], [], []], "Input type": ["", "Scalar", "Scalar", "", "", "Scalar"]
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", "name": "aten::empty", "pid": 9392, "tid": 11724,
+    "ts": 1673604094284657, "dur": 2,
+    "args": {
+      "Trace name": "PyTorch Profiler", "Trace iteration": 0,
+      "External id": 6399511,
+      "Profiler Event Index": 22, "Input Dims": [[], [], [], [], [], []], "Input type": ["", "Scalar", "Scalar", "", "", ""]
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", "name": "aten::empty", "pid": 9392, "tid": 11724,
+    "ts": 1673604094284662, "dur": 1,
+    "args": {
+      "Trace name": "PyTorch Profiler", "Trace iteration": 0,
+      "External id": 6399512,
+      "Profiler Event Index": 23, "Input Dims": [[], [], [], [], [], []], "Input type": ["", "Scalar", "Scalar", "", "", ""]
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", "name": "aten::relu", "pid": 9392, "tid": 11724,
+    "ts": 1673604094284747, "dur": 97,
+    "args": {
+      "Trace name": "PyTorch Profiler", "Trace iteration": 0,
+      "External id": 6399513,
+      "Profiler Event Index": 24, "Input Dims": [[16, 16, 28, 28]], "Input type": ["float"], "Fwd thread id": 0, "Sequence number": 212485
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", "name": "aten::clamp_min", "pid": 9392, "tid": 11724,
+    "ts": 1673604094284753, "dur": 83,
+    "args": {
+      "Trace name": "PyTorch Profiler", "Trace iteration": 0,
+      "External id": 6399514,
+      "Profiler Event Index": 25, "Input Dims": [[16, 16, 28, 28], []], "Input type": ["float", "Scalar"]
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", "name": "aten::max_pool2d", "pid": 9392, "tid": 11724,
+    "ts": 1673604094284878, "dur": 387,
+    "args": {
+      "Trace name": "PyTorch Profiler", "Trace iteration": 0,
+      "External id": 6399515,
+      "Profiler Event Index": 26, "Input Dims": [[16, 16, 28, 28], [], [], [], [], []], "Input type": ["float", "", "", "", "", "Scalar"], "Fwd thread id": 0, "Sequence number": 212486
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", "name": "aten::max_pool2d_with_indices", "pid": 9392, "tid": 11724,
+    "ts": 1673604094284883, "dur": 375,
+    "args": {
+      "Trace name": "PyTorch Profiler", "Trace iteration": 0,
+      "External id": 6399516,
+      "Profiler Event Index": 27, "Input Dims": [[16, 16, 28, 28], [], [], [], [], []], "Input type": ["float", "", "", "", "", "Scalar"], "Fwd thread id": 0, "Sequence number": 212486
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", "name": "aten::conv2d", "pid": 9392, "tid": 11724,
+    "ts": 1673604094285319, "dur": 376,
+    "args": {
+      "Trace name": "PyTorch Profiler", "Trace iteration": 0,
+      "External id": 6399517,
+      "Profiler Event Index": 28, "Input Dims": [[16, 16, 14, 14], [16, 16, 3, 3], [16], [], [], [], []], "Input type": ["float", "float", "float", "", "", "", "Scalar"], "Fwd thread id": 0, "Sequence number": 212487
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", "name": "aten::convolution", "pid": 9392, "tid": 11724,
+    "ts": 1673604094285325, "dur": 367,
+    "args": {
+      "Trace name": "PyTorch Profiler", "Trace iteration": 0,
+      "External id": 6399518,
+      "Profiler Event Index": 29, "Input Dims": [[16, 16, 14, 14], [16, 16, 3, 3], [16], [], [], [], [], [], []], "Input type": ["float", "float", "float", "", "", "", "Scalar", "", "Scalar"], "Fwd thread id": 0, "Sequence number": 212487
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", "name": "aten::_convolution", "pid": 9392, "tid": 11724,
+    "ts": 1673604094285337, "dur": 351,
+    "args": {
+      "Trace name": "PyTorch Profiler", "Trace iteration": 0,
+      "External id": 6399519,
+      "Profiler Event Index": 30, "Input Dims": [[16, 16, 14, 14], [16, 16, 3, 3], [16], [], [], [], [], [], [], [], [], [], []], "Input type": ["float", "float", "float", "", "", "", "Scalar", "", "Scalar", "Scalar", "Scalar", "Scalar", "Scalar"]
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", "name": "aten::mkldnn_convolution", "pid": 9392, "tid": 11724,
+    "ts": 1673604094285347, "dur": 324,
+    "args": {
+      "Trace name": "PyTorch Profiler", "Trace iteration": 0,
+      "External id": 6399520,
+      "Profiler Event Index": 31, "Input Dims": [[16, 16, 14, 14], [16, 16, 3, 3], [16], [], [], [], []], "Input type": ["float", "float", "float", "", "", "", "Scalar"]
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", "name": "aten::empty", "pid": 9392, "tid": 11724,
+    "ts": 1673604094285353, "dur": 3,
+    "args": {
+      "Trace name": "PyTorch Profiler", "Trace iteration": 0,
+      "External id": 6399521,
+      "Profiler Event Index": 32, "Input Dims": [[], [], [], [], [], []], "Input type": ["", "Scalar", "Scalar", "", "", ""]
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", "name": "aten::empty", "pid": 9392, "tid": 11724,
+    "ts": 1673604094285610, "dur": 6,
+    "args": {
+      "Trace name": "PyTorch Profiler", "Trace iteration": 0,
+      "External id": 6399522,
+      "Profiler Event Index": 33, "Input Dims": [[], [], [], [], [], []], "Input type": ["", "Scalar", "Scalar", "", "", ""]
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", "name": "aten::as_strided_", "pid": 9392, "tid": 11724,
+    "ts": 1673604094285662, "dur": 2,
+    "args": {
+      "Trace name": "PyTorch Profiler", "Trace iteration": 0,
+      "External id": 6399523,
+      "Profiler Event Index": 34, "Input Dims": [[16, 16, 14, 14], [], [], []], "Input type": ["float", "", "", ""]
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", "name": "aten::add_", "pid": 9392, "tid": 11724,
+    "ts": 1673604094285732, "dur": 10,
+    "args": {
+      "Trace name": "PyTorch Profiler", "Trace iteration": 0,
+      "External id": 6399524,
+      "Profiler Event Index": 35, "Input Dims": [[], [], []], "Input type": ["__int64", "__int64", "Scalar"], "Fwd thread id": 0, "Sequence number": 212488
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", "name": "aten::batch_norm", "pid": 9392, "tid": 11724,
+    "ts": 1673604094285789, "dur": 129,
+    "args": {
+      "Trace name": "PyTorch Profiler", "Trace iteration": 0,
+      "External id": 6399525,
+      "Profiler Event Index": 36, "Input Dims": [[16, 16, 14, 14], [16], [16], [16], [16], [], [], [], []], "Input type": ["float", "float", "float", "float", "float", "Scalar", "Scalar", "Scalar", "Scalar"], "Fwd thread id": 0, "Sequence number": 212488
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", "name": "aten::_batch_norm_impl_index", "pid": 9392, "tid": 11724,
+    "ts": 1673604094285793, "dur": 123,
+    "args": {
+      "Trace name": "PyTorch Profiler", "Trace iteration": 0,
+      "External id": 6399526,
+      "Profiler Event Index": 37, "Input Dims": [[16, 16, 14, 14], [16], [16], [16], [16], [], [], [], []], "Input type": ["float", "float", "float", "float", "float", "Scalar", "Scalar", "Scalar", "Scalar"], "Fwd thread id": 0, "Sequence number": 212488
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", "name": "aten::empty", "pid": 9392, "tid": 11724,
+    "ts": 1673604094285798, "dur": 2,
+    "args": {
+      "Trace name": "PyTorch Profiler", "Trace iteration": 0,
+      "External id": 6399527,
+      "Profiler Event Index": 38, "Input Dims": [[], [], [], [], [], []], "Input type": ["", "Scalar", "Scalar", "", "", ""]
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", "name": "aten::native_batch_norm", "pid": 9392, "tid": 11724,
+    "ts": 1673604094285805, "dur": 108,
+    "args": {
+      "Trace name": "PyTorch Profiler", "Trace iteration": 0,
+      "External id": 6399528,
+      "Profiler Event Index": 39, "Input Dims": [[16, 16, 14, 14], [16], [16], [16], [16], [], [], []], "Input type": ["float", "float", "float", "float", "float", "Scalar", "Scalar", "Scalar"], "Fwd thread id": 0, "Sequence number": 212488
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", "name": "aten::empty", "pid": 9392, "tid": 11724,
+    "ts": 1673604094285817, "dur": 2,
+    "args": {
+      "Trace name": "PyTorch Profiler", "Trace iteration": 0,
+      "External id": 6399529,
+      "Profiler Event Index": 40, "Input Dims": [[], [], [], [], [], []], "Input type": ["", "Scalar", "Scalar", "", "", ""]
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", "name": "aten::empty", "pid": 9392, "tid": 11724,
+    "ts": 1673604094285823, "dur": 1,
+    "args": {
+      "Trace name": "PyTorch Profiler", "Trace iteration": 0,
+      "External id": 6399530,
+      "Profiler Event Index": 41, "Input Dims": [[], [], [], [], [], []], "Input type": ["", "Scalar", "Scalar", "", "", ""]
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", "name": "aten::empty", "pid": 9392, "tid": 11724,
+    "ts": 1673604094285828, "dur": 1,
+    "args": {
+      "Trace name": "PyTorch Profiler", "Trace iteration": 0,
+      "External id": 6399531,
+      "Profiler Event Index": 42, "Input Dims": [[], [], [], [], [], []], "Input type": ["", "Scalar", "Scalar", "", "", ""]
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", "name": "aten::empty", "pid": 9392, "tid": 11724,
+    "ts": 1673604094285833, "dur": 1,
+    "args": {
+      "Trace name": "PyTorch Profiler", "Trace iteration": 0,
+      "External id": 6399532,
+      "Profiler Event Index": 43, "Input Dims": [[], [], [], [], [], []], "Input type": ["", "Scalar", "Scalar", "", "", ""]
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", "name": "aten::empty_like", "pid": 9392, "tid": 11724,
+    "ts": 1673604094285880, "dur": 8,
+    "args": {
+      "Trace name": "PyTorch Profiler", "Trace iteration": 0,
+      "External id": 6399533,
+      "Profiler Event Index": 44, "Input Dims": [[16, 16, 14, 14], [], [], [], [], []], "Input type": ["float", "", "", "", "", "Scalar"]
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", "name": "aten::empty", "pid": 9392, "tid": 11724,
+    "ts": 1673604094285884, "dur": 2,
+    "args": {
+      "Trace name": "PyTorch Profiler", "Trace iteration": 0,
+      "External id": 6399534,
+      "Profiler Event Index": 45, "Input Dims": [[], [], [], [], [], []], "Input type": ["", "Scalar", "Scalar", "", "", "Scalar"]
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", "name": "aten::empty", "pid": 9392, "tid": 11724,
+    "ts": 1673604094285892, "dur": 1,
+    "args": {
+      "Trace name": "PyTorch Profiler", "Trace iteration": 0,
+      "External id": 6399535,
+      "Profiler Event Index": 46, "Input Dims": [[], [], [], [], [], []], "Input type": ["", "Scalar", "Scalar", "", "", ""]
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", "name": "aten::empty", "pid": 9392, "tid": 11724,
+    "ts": 1673604094285897, "dur": 1,
+    "args": {
+      "Trace name": "PyTorch Profiler", "Trace iteration": 0,
+      "External id": 6399536,
+      "Profiler Event Index": 47, "Input Dims": [[], [], [], [], [], []], "Input type": ["", "Scalar", "Scalar", "", "", ""]
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", "name": "aten::relu", "pid": 9392, "tid": 11724,
+    "ts": 1673604094285935, "dur": 47,
+    "args": {
+      "Trace name": "PyTorch Profiler", "Trace iteration": 0,
+      "External id": 6399537,
+      "Profiler Event Index": 48, "Input Dims": [[16, 16, 14, 14]], "Input type": ["float"], "Fwd thread id": 0, "Sequence number": 212489
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", "name": "aten::clamp_min", "pid": 9392, "tid": 11724,
+    "ts": 1673604094285941, "dur": 34,
+    "args": {
+      "Trace name": "PyTorch Profiler", "Trace iteration": 0,
+      "External id": 6399538,
+      "Profiler Event Index": 49, "Input Dims": [[16, 16, 14, 14], []], "Input type": ["float", "Scalar"]
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", "name": "aten::max_pool2d", "pid": 9392, "tid": 11724,
+    "ts": 1673604094286006, "dur": 108,
+    "args": {
+      "Trace name": "PyTorch Profiler", "Trace iteration": 0,
+      "External id": 6399539,
+      "Profiler Event Index": 50, "Input Dims": [[16, 16, 14, 14], [], [], [], [], []], "Input type": ["float", "", "", "", "", "Scalar"], "Fwd thread id": 0, "Sequence number": 212490
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", "name": "aten::max_pool2d_with_indices", "pid": 9392, "tid": 11724,
+    "ts": 1673604094286010, "dur": 102,
+    "args": {
+      "Trace name": "PyTorch Profiler", "Trace iteration": 0,
+      "External id": 6399540,
+      "Profiler Event Index": 51, "Input Dims": [[16, 16, 14, 14], [], [], [], [], []], "Input type": ["float", "", "", "", "", "Scalar"], "Fwd thread id": 0, "Sequence number": 212490
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", "name": "aten::conv2d", "pid": 9392, "tid": 11724,
+    "ts": 1673604094286149, "dur": 198,
+    "args": {
+      "Trace name": "PyTorch Profiler", "Trace iteration": 0,
+      "External id": 6399541,
+      "Profiler Event Index": 52, "Input Dims": [[16, 16, 7, 7], [16, 16, 3, 3], [16], [], [], [], []], "Input type": ["float", "float", "float", "", "", "", "Scalar"], "Fwd thread id": 0, "Sequence number": 212491
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", "name": "aten::convolution", "pid": 9392, "tid": 11724,
+    "ts": 1673604094286154, "dur": 191,
+    "args": {
+      "Trace name": "PyTorch Profiler", "Trace iteration": 0,
+      "External id": 6399542,
+      "Profiler Event Index": 53, "Input Dims": [[16, 16, 7, 7], [16, 16, 3, 3], [16], [], [], [], [], [], []], "Input type": ["float", "float", "float", "", "", "", "Scalar", "", "Scalar"], "Fwd thread id": 0, "Sequence number": 212491
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", "name": "aten::_convolution", "pid": 9392, "tid": 11724,
+    "ts": 1673604094286162, "dur": 179,
+    "args": {
+      "Trace name": "PyTorch Profiler", "Trace iteration": 0,
+      "External id": 6399543,
+      "Profiler Event Index": 54, "Input Dims": [[16, 16, 7, 7], [16, 16, 3, 3], [16], [], [], [], [], [], [], [], [], [], []], "Input type": ["float", "float", "float", "", "", "", "Scalar", "", "Scalar", "Scalar", "Scalar", "Scalar", "Scalar"]
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", "name": "aten::mkldnn_convolution", "pid": 9392, "tid": 11724,
+    "ts": 1673604094286171, "dur": 168,
+    "args": {
+      "Trace name": "PyTorch Profiler", "Trace iteration": 0,
+      "External id": 6399544,
+      "Profiler Event Index": 55, "Input Dims": [[16, 16, 7, 7], [16, 16, 3, 3], [16], [], [], [], []], "Input type": ["float", "float", "float", "", "", "", "Scalar"]
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", "name": "aten::empty", "pid": 9392, "tid": 11724,
+    "ts": 1673604094286176, "dur": 2,
+    "args": {
+      "Trace name": "PyTorch Profiler", "Trace iteration": 0,
+      "External id": 6399545,
+      "Profiler Event Index": 56, "Input Dims": [[], [], [], [], [], []], "Input type": ["", "Scalar", "Scalar", "", "", ""]
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", "name": "aten::empty", "pid": 9392, "tid": 11724,
+    "ts": 1673604094286307, "dur": 3,
+    "args": {
+      "Trace name": "PyTorch Profiler", "Trace iteration": 0,
+      "External id": 6399546,
+      "Profiler Event Index": 57, "Input Dims": [[], [], [], [], [], []], "Input type": ["", "Scalar", "Scalar", "", "", ""]
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", "name": "aten::as_strided_", "pid": 9392, "tid": 11724,
+    "ts": 1673604094286332, "dur": 2,
+    "args": {
+      "Trace name": "PyTorch Profiler", "Trace iteration": 0,
+      "External id": 6399547,
+      "Profiler Event Index": 58, "Input Dims": [[16, 16, 7, 7], [], [], []], "Input type": ["float", "", "", ""]
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", "name": "aten::add_", "pid": 9392, "tid": 11724,
+    "ts": 1673604094286373, "dur": 7,
+    "args": {
+      "Trace name": "PyTorch Profiler", "Trace iteration": 0,
+      "External id": 6399548,
+      "Profiler Event Index": 59, "Input Dims": [[], [], []], "Input type": ["__int64", "__int64", "Scalar"], "Fwd thread id": 0, "Sequence number": 212492
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", "name": "aten::batch_norm", "pid": 9392, "tid": 11724,
+    "ts": 1673604094286404, "dur": 149,
+    "args": {
+      "Trace name": "PyTorch Profiler", "Trace iteration": 0,
+      "External id": 6399549,
+      "Profiler Event Index": 60, "Input Dims": [[16, 16, 7, 7], [16], [16], [16], [16], [], [], [], []], "Input type": ["float", "float", "float", "float", "float", "Scalar", "Scalar", "Scalar", "Scalar"], "Fwd thread id": 0, "Sequence number": 212492
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", "name": "aten::_batch_norm_impl_index", "pid": 9392, "tid": 11724,
+    "ts": 1673604094286407, "dur": 143,
+    "args": {
+      "Trace name": "PyTorch Profiler", "Trace iteration": 0,
+      "External id": 6399550,
+      "Profiler Event Index": 61, "Input Dims": [[16, 16, 7, 7], [16], [16], [16], [16], [], [], [], []], "Input type": ["float", "float", "float", "float", "float", "Scalar", "Scalar", "Scalar", "Scalar"], "Fwd thread id": 0, "Sequence number": 212492
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", "name": "aten::empty", "pid": 9392, "tid": 11724,
+    "ts": 1673604094286411, "dur": 2,
+    "args": {
+      "Trace name": "PyTorch Profiler", "Trace iteration": 0,
+      "External id": 6399551,
+      "Profiler Event Index": 62, "Input Dims": [[], [], [], [], [], []], "Input type": ["", "Scalar", "Scalar", "", "", ""]
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", "name": "aten::native_batch_norm", "pid": 9392, "tid": 11724,
+    "ts": 1673604094286418, "dur": 127,
+    "args": {
+      "Trace name": "PyTorch Profiler", "Trace iteration": 0,
+      "External id": 6399552,
+      "Profiler Event Index": 63, "Input Dims": [[16, 16, 7, 7], [16], [16], [16], [16], [], [], []], "Input type": ["float", "float", "float", "float", "float", "Scalar", "Scalar", "Scalar"], "Fwd thread id": 0, "Sequence number": 212492
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", "name": "aten::empty", "pid": 9392, "tid": 11724,
+    "ts": 1673604094286427, "dur": 2,
+    "args": {
+      "Trace name": "PyTorch Profiler", "Trace iteration": 0,
+      "External id": 6399553,
+      "Profiler Event Index": 64, "Input Dims": [[], [], [], [], [], []], "Input type": ["", "Scalar", "Scalar", "", "", ""]
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", "name": "aten::empty", "pid": 9392, "tid": 11724,
+    "ts": 1673604094286432, "dur": 1,
+    "args": {
+      "Trace name": "PyTorch Profiler", "Trace iteration": 0,
+      "External id": 6399554,
+      "Profiler Event Index": 65, "Input Dims": [[], [], [], [], [], []], "Input type": ["", "Scalar", "Scalar", "", "", ""]
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", "name": "aten::empty", "pid": 9392, "tid": 11724,
+    "ts": 1673604094286437, "dur": 1,
+    "args": {
+      "Trace name": "PyTorch Profiler", "Trace iteration": 0,
+      "External id": 6399555,
+      "Profiler Event Index": 66, "Input Dims": [[], [], [], [], [], []], "Input type": ["", "Scalar", "Scalar", "", "", ""]
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", "name": "aten::empty", "pid": 9392, "tid": 11724,
+    "ts": 1673604094286441, "dur": 1,
+    "args": {
+      "Trace name": "PyTorch Profiler", "Trace iteration": 0,
+      "External id": 6399556,
+      "Profiler Event Index": 67, "Input Dims": [[], [], [], [], [], []], "Input type": ["", "Scalar", "Scalar", "", "", ""]
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", "name": "aten::empty_like", "pid": 9392, "tid": 11724,
+    "ts": 1673604094286469, "dur": 28,
+    "args": {
+      "Trace name": "PyTorch Profiler", "Trace iteration": 0,
+      "External id": 6399557,
+      "Profiler Event Index": 68, "Input Dims": [[16, 16, 7, 7], [], [], [], [], []], "Input type": ["float", "", "", "", "", "Scalar"]
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", "name": "aten::empty", "pid": 9392, "tid": 11724,
+    "ts": 1673604094286472, "dur": 3,
+    "args": {
+      "Trace name": "PyTorch Profiler", "Trace iteration": 0,
+      "External id": 6399558,
+      "Profiler Event Index": 69, "Input Dims": [[], [], [], [], [], []], "Input type": ["", "Scalar", "Scalar", "", "", "Scalar"]
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", "name": "aten::empty", "pid": 9392, "tid": 11724,
+    "ts": 1673604094286508, "dur": 4,
+    "args": {
+      "Trace name": "PyTorch Profiler", "Trace iteration": 0,
+      "External id": 6399559,
+      "Profiler Event Index": 70, "Input Dims": [[], [], [], [], [], []], "Input type": ["", "Scalar", "Scalar", "", "", ""]
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", "name": "aten::empty", "pid": 9392, "tid": 11724,
+    "ts": 1673604094286520, "dur": 2,
+    "args": {
+      "Trace name": "PyTorch Profiler", "Trace iteration": 0,
+      "External id": 6399560,
+      "Profiler Event Index": 71, "Input Dims": [[], [], [], [], [], []], "Input type": ["", "Scalar", "Scalar", "", "", ""]
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", "name": "aten::relu", "pid": 9392, "tid": 11724,
+    "ts": 1673604094286571, "dur": 32,
+    "args": {
+      "Trace name": "PyTorch Profiler", "Trace iteration": 0,
+      "External id": 6399561,
+      "Profiler Event Index": 72, "Input Dims": [[16, 16, 7, 7]], "Input type": ["float"], "Fwd thread id": 0, "Sequence number": 212493
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", "name": "aten::clamp_min", "pid": 9392, "tid": 11724,
+    "ts": 1673604094286577, "dur": 20,
+    "args": {
+      "Trace name": "PyTorch Profiler", "Trace iteration": 0,
+      "External id": 6399562,
+      "Profiler Event Index": 73, "Input Dims": [[16, 16, 7, 7], []], "Input type": ["float", "Scalar"]
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", "name": "aten::max_pool2d", "pid": 9392, "tid": 11724,
+    "ts": 1673604094286626, "dur": 43,
+    "args": {
+      "Trace name": "PyTorch Profiler", "Trace iteration": 0,
+      "External id": 6399563,
+      "Profiler Event Index": 74, "Input Dims": [[16, 16, 7, 7], [], [], [], [], []], "Input type": ["float", "", "", "", "", "Scalar"], "Fwd thread id": 0, "Sequence number": 212494
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", "name": "aten::max_pool2d_with_indices", "pid": 9392, "tid": 11724,
+    "ts": 1673604094286630, "dur": 36,
+    "args": {
+      "Trace name": "PyTorch Profiler", "Trace iteration": 0,
+      "External id": 6399564,
+      "Profiler Event Index": 75, "Input Dims": [[16, 16, 7, 7], [], [], [], [], []], "Input type": ["float", "", "", "", "", "Scalar"], "Fwd thread id": 0, "Sequence number": 212494
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", "name": "aten::reshape", "pid": 9392, "tid": 11724,
+    "ts": 1673604094286685, "dur": 18,
+    "args": {
+      "Trace name": "PyTorch Profiler", "Trace iteration": 0,
+      "External id": 6399565,
+      "Profiler Event Index": 76, "Input Dims": [[16, 16, 3, 3], []], "Input type": ["float", ""], "Fwd thread id": 0, "Sequence number": 212495
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", "name": "aten::_reshape_alias", "pid": 9392, "tid": 11724,
+    "ts": 1673604094286692, "dur": 9,
+    "args": {
+      "Trace name": "PyTorch Profiler", "Trace iteration": 0,
+      "External id": 6399566,
+      "Profiler Event Index": 77, "Input Dims": [[16, 16, 3, 3], [], []], "Input type": ["float", "", ""], "Fwd thread id": 0, "Sequence number": 212495
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", "name": "aten::linear", "pid": 9392, "tid": 11724,
+    "ts": 1673604094286726, "dur": 86,
+    "args": {
+      "Trace name": "PyTorch Profiler", "Trace iteration": 0,
+      "External id": 6399567,
+      "Profiler Event Index": 78, "Input Dims": [[16, 144], [10, 144], [10]], "Input type": ["float", "float", "float"], "Fwd thread id": 0, "Sequence number": 212496
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", "name": "aten::t", "pid": 9392, "tid": 11724,
+    "ts": 1673604094286730, "dur": 19,
+    "args": {
+      "Trace name": "PyTorch Profiler", "Trace iteration": 0,
+      "External id": 6399568,
+      "Profiler Event Index": 79, "Input Dims": [[10, 144]], "Input type": ["float"], "Fwd thread id": 0, "Sequence number": 212496
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", "name": "aten::transpose", "pid": 9392, "tid": 11724,
+    "ts": 1673604094286736, "dur": 9,
+    "args": {
+      "Trace name": "PyTorch Profiler", "Trace iteration": 0,
+      "External id": 6399569,
+      "Profiler Event Index": 80, "Input Dims": [[10, 144], [], []], "Input type": ["float", "Scalar", "Scalar"]
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", "name": "aten::as_strided", "pid": 9392, "tid": 11724,
+    "ts": 1673604094286741, "dur": 2,
+    "args": {
+      "Trace name": "PyTorch Profiler", "Trace iteration": 0,
+      "External id": 6399570,
+      "Profiler Event Index": 81, "Input Dims": [[10, 144], [], [], []], "Input type": ["float", "", "", ""]
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", "name": "aten::addmm", "pid": 9392, "tid": 11724,
+    "ts": 1673604094286754, "dur": 56,
+    "args": {
+      "Trace name": "PyTorch Profiler", "Trace iteration": 0,
+      "External id": 6399571,
+      "Profiler Event Index": 82, "Input Dims": [[10], [16, 144], [144, 10], [], []], "Input type": ["float", "float", "float", "Scalar", "Scalar"], "Fwd thread id": 0, "Sequence number": 212497
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", "name": "aten::expand", "pid": 9392, "tid": 11724,
+    "ts": 1673604094286767, "dur": 7,
+    "args": {
+      "Trace name": "PyTorch Profiler", "Trace iteration": 0,
+      "External id": 6399572,
+      "Profiler Event Index": 83, "Input Dims": [[10], [], []], "Input type": ["float", "", "Scalar"]
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", "name": "aten::as_strided", "pid": 9392, "tid": 11724,
+    "ts": 1673604094286771, "dur": 1,
+    "args": {
+      "Trace name": "PyTorch Profiler", "Trace iteration": 0,
+      "External id": 6399573,
+      "Profiler Event Index": 84, "Input Dims": [[10], [], [], []], "Input type": ["float", "", "", ""]
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", "name": "aten::copy_", "pid": 9392, "tid": 11724,
+    "ts": 1673604094286779, "dur": 8,
+    "args": {
+      "Trace name": "PyTorch Profiler", "Trace iteration": 0,
+      "External id": 6399574,
+      "Profiler Event Index": 85, "Input Dims": [[16, 10], [16, 10], []], "Input type": ["float", "float", "Scalar"]
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", "name": "aten::resolve_conj", "pid": 9392, "tid": 11724,
+    "ts": 1673604094286791, "dur": 1,
+    "args": {
+      "Trace name": "PyTorch Profiler", "Trace iteration": 0,
+      "External id": 6399575,
+      "Profiler Event Index": 86, "Input Dims": [[16, 10]], "Input type": ["float"]
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", "name": "aten::resolve_conj", "pid": 9392, "tid": 11724,
+    "ts": 1673604094286795, "dur": 0,
+    "args": {
+      "Trace name": "PyTorch Profiler", "Trace iteration": 0,
+      "External id": 6399576,
+      "Profiler Event Index": 87, "Input Dims": [[16, 144]], "Input type": ["float"]
+    }
+  },
+  {
+    "name": "thread_name", "ph": "M", "ts": 1673604094282538, "pid": 9392, "tid": 11724,
+    "args": {
+      "name": "thread 11724 ()"
+    }
+  },
+  {
+    "name": "thread_sort_index", "ph": "M", "ts": 1673604094282538, "pid": 9392, "tid": 11724,
+    "args": {
+      "sort_index": 11724
+    }
+  },
+  {
+    "name": "thread_name", "ph": "M", "ts": 1673604094282538, "pid": 9392, "tid": 11724,
+    "args": {
+      "name": "thread 11724 ()"
+    }
+  },
+  {
+    "name": "thread_sort_index", "ph": "M", "ts": 1673604094282538, "pid": 9392, "tid": 11724,
+    "args": {
+      "sort_index": 11724
+    }
+  },
+  {
+    "ph": "X", "cat": "Trace", "ts": 1673604094282010, "dur": 5550,
+    "pid": "Spans", "tid": "PyTorch Profiler",
+    "name": "PyTorch Profiler (0)",
+    "args": {
+      "Op count": 0
+    }
+  },
+  {
+    "name": "process_sort_index", "ph": "M", "ts": 1673604094282010,
+    "pid": "Spans", "tid": 0,
+    "args": {
+      "sort_index": 536870912
+    }
+  },
+  {
+    "name": "Iteration Start: PyTorch Profiler", "ph": "i", "s": "g",
+    "pid": "Traces", "tid": "Trace PyTorch Profiler", "ts": 1673604094282010
+  },
+  {
+    "name": "Record Window End", "ph": "i", "s": "g",
+    "pid": "", "tid": "", "ts": 1673604094288101
+  }
+  ],
+  "traceName": "trace.json"
+}

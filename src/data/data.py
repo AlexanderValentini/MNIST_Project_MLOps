@@ -3,7 +3,7 @@ import numpy as np
 import torch
 from torch.utils.data import DataLoader, Dataset
 
-data_path = "D:/shared/DTU/7. Semester/Machine Learning Operations/Own Exercises folder/CookieCutter_project/Alex_Cookie_Cutter_repo/data/processed/"
+data_path = "D:/shared/DTU/7. Semester/Machine Learning Operations/Own Exercises folder/Cookie_Cutter_project_git_supported (newest)/MNIST_Project_MLOps/data/processed/"
 
 train_path = data_path + "train.pth"
 #test_path = data_path + "test_set_processed_Mnist_corrupted.npy"

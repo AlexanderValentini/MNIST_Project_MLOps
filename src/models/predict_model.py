@@ -10,7 +10,7 @@ from torchvision import transforms
 import src.data.data
 import src.data.make_dataset
 
-model_weights_path = "D:/shared/DTU/7. Semester/Machine Learning Operations/Own Exercises folder/CookieCutter_project/Alex_Cookie_Cutter_repo/models/MNIST_CNN_model_weights.pth"
+model_weights_path = "D:/shared/DTU/7. Semester/Machine Learning Operations/Own Exercises folder/Cookie_Cutter_project_git_supported (newest)/MNIST_Project_MLOps/models/MNIST_CNN_model_weights.pth"
 
 # test_path = data_path + "/test.npz"
 
