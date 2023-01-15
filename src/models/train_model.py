@@ -18,21 +18,24 @@ import src.data.data
 
 
 
-train_data_path = "D:/shared/DTU/7. Semester/Machine Learning Operations/Own Exercises folder/Cookie_Cutter_project_git_supported (newest)/MNIST_Project_MLOps/data/processed/train.pt"
+train_data_path = "C:/shared/DTU/7. Semester/Machine Learning Operations/Own Exercises folder/Cookie_Cutter_project_git_supported (newest)/MNIST_Project_MLOps/data/processed/train.pt"
 
+train_path_linux = "/mnt/d/shared/DTU/7. Semester/Machine Learning Operations/Own Exercises folder/Cookie_Cutter_project_git_supported (newest)/MNIST_Project_MLOps/data/processed/train.pt"
+
+train_path = "data/processed/train.pt"
 # train_path = data_path + "train_set_processed_Mnist_corrupted.npy"
 # test_path = data_path + "test_set_processed_Mnist_corrupted.npy"
 
 
-@click.group()
-def cli():
-    pass
+#@click.group()
+#def cli():
+#    pass
 
 
-@click.command()
-@click.argument("train_data_filepath", type=click.Path(exists=True))
-@click.argument("lr", default=1e-3)
-def train(train_data_filepath, lr):
+#@click.command()
+#@click.argument("train_data_filepath", type=click.Path(exists=True))
+#@click.argument("lr", default=1e-3)
+def train(train_data_filepath, lr=1e-3):
 
 #    with profile(activities=[ProfilerActivity.CPU], record_shapes=True, ) as prof:
         model = MyAwesomeModel(num_classes=10)
@@ -89,8 +92,13 @@ def train(train_data_filepath, lr):
     #prof.export_chrome_trace("trace.json")
 #    print(prof.key_averages(group_by_input_shape=True).table(sort_by="cpu_time_total", row_limit=30))
 
-cli.add_command(train)
+#cli.add_command(train)
 
-if __name__ == "__main__":
+#if __name__ == "__main__":
 
-    cli()
+#    cli()
+#print(train_path_linux)
+#train(train_path_linux)
+
+print(train_path)
+train(train_path)
