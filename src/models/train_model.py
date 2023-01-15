@@ -7,11 +7,11 @@ from model_cnn import MyAwesomeModel
 from torch import nn, optim
 from torch.utils.data import DataLoader
 from tqdm import tqdm
-import wandb
+#import wandb
 import src.data.data
-wandb.init(project = "test-project", entity = "mlogs23")
-from torch.profiler import profile, ProfilerActivity
-from torch.profiler import profile, tensorboard_trace_handler
+#wandb.init(project = "test-project", entity = "mlogs23")
+#from torch.profiler import profile, ProfilerActivity
+#from torch.profiler import profile, tensorboard_trace_handler
 
 # Is currently a
 
@@ -63,7 +63,7 @@ def train(train_data_filepath, lr):
                 running_loss += loss.item()
             print("Training loss is", running_loss)
             train_losses.append(running_loss)
-            wandb.log({"train_loss": running_loss}, step = e)
+#            wandb.log({"train_loss": running_loss}, step = e)
             print(type(running_loss))
 
         """ checkpoint = {'input_size': 784,
